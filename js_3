@@ -1,0 +1,51 @@
+// 1
+
+// let userAge = prompt("Сенің жасың каншада ?");
+
+// userAge = parseInt(userAge);
+
+// if (userAge >= 18) { // console.log("You are old enough to drive."); // } else { // let yearsToWait = 18 - userAge; // if (yearsToWait === 1) { // console.log("You need to wait 1 more year to turn 18."); // } else { // console.log("You need to wait " + yearsToWait + " more years to turn 18."); // } // }
+
+// 2
+
+// let userAge = prompt("Сенің жасың каншада ?");
+
+// userAge = parseInt(userAge);
+
+// if (userAge >= 30) { // console.log("You are old enough to drive."); // } else { // let yearsToWait = 30 - userAge; // if (yearsToWait === 1) { // console.log("You need to wait 1 more year to turn 18."); // } else { // console.log("You need to wait " + yearsToWait + " more years to turn 30."); // } // }
+
+// 3
+
+// let a = 10 // let b = 8 // if (a > b ){ // console.log("а үлкенба б дан ") // } else{ // console.log("б үлкенба а дан") // }
+
+// 4
+
+// let number = 8;
+
+// if (number % 2 === 0) { // console.log(number + ' is even.'); // } else { // console.log(number + ' is not even.'); // }
+
+// 5
+
+// let a = prompt("Enter the student's score:");
+
+// score = parseFloat(a);
+
+// let grade;
+
+// if (score >= 90) { // grade = "A+"; // } else if (a >= 80) { // grade = "A"; // } else if (a >= 70) { // grade = "B"; // } else if (a >= 60) { // grade = "C"; // } else if (a >= 50) { // grade = "D"; // } else { // grade = "F"; // }
+
+// console.log("The student's grade is: " + grade);
+
+// 6
+
+// let season = prompt("Казыр кай мезгіл:").toLowerCase();
+
+// switch (season) { // case "Күз": // case "fall": // console.log("It's Күз."); // break; // case "қыс": // console.log("It's қыс."); // break; // case "көктем": // console.log("It's көктем."); // break; // case "жаз": // console.log("It's жаз."); // break; // default: // console.log("Жыл мезгілін қате енгізу. Күз, Қыс, Көктем немесе жазды көрсетіңіз."); // }
+
+// 7
+
+// let day = prompt("Enter a day (e.g., Monday, Tuesday, ...):").toLowerCase(); // switch (day) { // case "saturday": // case "sunday": // console.log(day + " is a weekend day."); // break; // case "monday": // case "tuesday": // case "wednesday": // case "thursday": // case "friday": // console.log(day + " is a working day."); // break; // default: // console.log("Invalid day input. Please enter a valid day of the week."); // }
+
+// 8 // let month = parseInt(prompt("Enter a month (1-12):"));
+
+// switch (month) { // case 1: // case 3: // case 5: // case 7: // case 8: // case 10: // case 12: // console.log("There are 31 days in this month."); // break; // case 4: // case 6: // case 9: // case 11: // console.log("There are 30 days in this month."); // break; // case 2: // console.log("There are 28 or 29 days in this month, depending on whether it's a leap year."); // break; // default: // console.log("Invalid month input. Please enter a valid month (1-12)."); // }
