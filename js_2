@@ -1,0 +1,31 @@
+// 1
+
+// let name = "Asylkhan" // let username = "Kaldybay" // let city = "Almaty" // let age = 30 // let year = 2006
+
+// console.log("Data type of name:"+ typeof name) // console.log("Data type of username:"+ typeof username) // console.log("Data type of city:"+ typeof city) // console.log("Data type of age:"+ typeof age) // console.log("Data type of year:"+ typeof year)
+
+// 2
+
+// let isRaining = "10" // let numValue = 10 // typeof isRaining === typeof numValue // ? console.log('You need a rain coat.') // : console.log('No need for a rain coat.') // isRaining = false
+
+// 3
+
+// let isRaining = parseInt("9.8") // isRaining === 10 // ? console.log("parseInt('9.8') is equal to 10.") // : console.log("parseInt('9.8') is not equal to 10.") // isRaining = false
+
+// 4 // let isTrue = true;
+// let isFalse = false; // if (isTrue) { // console.log("This statement is executed because isTrue is true."); // } else { // console.log("This statement is not executed."); // }
+
+// if (isFalse) { // console.log("This statement is not executed because isFalse is false."); // } else { // console.log("This statement is executed."); // }
+
+// 5
+
+// let a = 10; // let b = 5;
+
+// let result = a > b;
+
+// console.log(result);
+
+///6
+
+// let weather = 'sunny' // if (weather === 'rainy') { // console.log('You need a rain coat.') // } else if (weather === 'cloudy') { // console.log('It might be cold, you need a jacket.') // } else if (weather === 'sunny') { // console.log('Go out freely.') // } else { // console.log('No need for rain coat.') // }
+
