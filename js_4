@@ -1,0 +1,201 @@
+
+
+// 1
+// let emptyArray = [];
+// console.log(emptyArray)
+
+// 2
+
+// let numberArray = [1, 2, 3, 4, 5, 6, 7];
+// console.log(numberArray)
+
+// 3
+
+// let myArray = [1, 2, 3, 4, 5];
+// let lengthOfArray = myArray.length;
+// console.log(lengthOfArray);
+
+// 4
+
+// let myArray = [1, 2, 3, 4, 5, 6, 7];
+// let firstItem = myArray[0];
+// let middleItem = myArray[Math.floor(myArray.length / 2)];
+// let lastItem = myArray[myArray.length - 1];
+
+// console.log(`First item: ${firstItem}`);
+// console.log(`Middle item: ${middleItem}`);
+// console.log(`Last item: ${lastItem}`);
+
+// 5
+
+// let mixedDataTypes = [10, 'hello', true, { key: 'value' }, [1, 2, 3], null, undefined];
+// let lengthOfArray = mixedDataTypes.length;
+// console.log(lengthOfArray);
+
+//6
+
+// let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+// console.log(itCompanies)
+
+// 7
+
+// let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+
+// console.log(itCompanies);
+
+// 8
+
+// let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+// let numberOfCompanies = itCompanies.length;
+
+// console.log("Number of companies:", numberOfCompanies);
+
+// 10
+
+// const companies = ["Company A", "Company B", "Company C", "Company D", /* ...and so on... */];
+
+// companies.forEach(company => {
+//   console.log(company);
+// });
+
+// 11
+
+// const companies = ["Company A", "Company B", "Company C", "Company D"];
+
+// companies.forEach(company => {
+//   const uppercaseCompany = company.toUpperCase();
+//   console.log(uppercaseCompany);
+// });
+
+// 12
+
+// const companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+// const sentence = companies.join(', ') + ' are big IT companies.';
+// console.log(sentence);
+
+
+// 13
+
+// const itCompanies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+// const searchCompany = "Microsoft"; // Change this to check for different companies
+
+// if (itCompanies.includes(searchCompany)) {
+//   console.log(`${searchCompany} exists in the array.`);
+// } else {
+//   console.log(`${searchCompany} is not found.`);
+// }
+
+// 14
+
+// const companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+
+// const companiesWithMoreThanOneO = [];
+
+// for (let i = 0; i < companies.length; i++) {
+//   let count = 0;
+//   const company = companies[i].toLowerCase(); // Convert to lowercase for case insensitivity
+
+//   for (let j = 0; j < company.length; j++) {
+//     if (company[j] === 'o') {
+//       count++;
+//     }
+//   }
+
+//   if (count > 1) {
+//     companiesWithMoreThanOneO.push(companies[i]);
+//   }
+// }
+
+// console.log("Companies with more than one 'o':", companiesWithMoreThanOneO);
+
+// 15
+
+// const companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+
+// companies.sort();
+
+// console.log("Sorted companies:", companies);
+
+// 16
+
+// const companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+
+// companies.reverse();
+
+// console.log("Reversed companies:", companies);
+
+// 17
+
+// const companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+
+// const firstThreeCompanies = companies.slice(0, 3);
+
+// console.log("First three companies:", firstThreeCompanies);
+
+// 18
+
+// const companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+
+// const lastThreeCompanies = companies.slice(-3);
+
+// console.log("Last three companies:", lastThreeCompanies);
+
+// 19
+
+// const companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+
+// const middleIndex = Math.floor(companies.length / 2);
+// let middleCompanies;
+
+// if (companies.length % 2 === 0) {
+//   middleCompanies = companies.slice(middleIndex - 1, middleIndex + 1);
+// } else {
+//   middleCompanies = companies.slice(middleIndex, middleIndex + 1);
+// }
+
+// console.log("Middle company/companies:", middleCompanies);
+
+
+// 20
+
+// const companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+
+// const indexToRemove = companies.indexOf("Facebook"); 
+
+// if (indexToRemove !== -1) {
+//   companies.splice(indexToRemove, 1);
+// }
+
+// console.log("Array after removing the first IT company:", companies);
+
+// 21
+
+// const companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+
+// const middleIndex = Math.floor(companies.length / 2);
+
+// if (companies.length % 2 === 0) {
+//   companies.splice(middleIndex - 1, 2);
+// } else {
+//   companies.splice(middleIndex, 1);
+// }
+
+// console.log("Array after removing the middle IT company/companies:", companies);
+
+// 22
+
+// const companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+
+// const removedCompany = companies.pop();
+
+// console.log("Removed company:", removedCompany);
+// console.log("Array after removing the last IT company:", companies);
+
+
+// 23
+
+// const companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+
+// const nonITCompanies = companies.filter(company => !company.includes("Microsoft") && !company.includes("IBM") && !company.includes("Oracle"));
+
+// console.log("Array after removing IT companies:", nonITCompanies);
