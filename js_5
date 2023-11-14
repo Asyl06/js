@@ -1,0 +1,203 @@
+
+// 1
+
+// let i = 0;
+// do {
+//     console.log(i);
+//     i++;
+// } while (i <= 10);
+
+// 2
+
+// let i = 10;
+// do {
+//     console.log(i);
+//     i--;
+// } while (i >= 0);
+
+// 3
+
+// const n = 10; 
+
+// for (let i = 0; i <= n; i++) {
+//     console.log(i);
+// }
+
+// 4
+
+// const rows = 5;
+
+// for (let i = 1; i <= rows; i++) {
+//     let pattern = '';
+//     for (let j = 1; j <= i; j++) {
+//         pattern += '*';
+//     }
+//     console.log(pattern);
+// }
+
+// 5
+
+// const rows = 5
+// for(let i = 1; i <= rows; i++){
+//   let pattern = '';
+//   for(let j = 1; j <= i; j++){
+//     pattern += '#';
+    
+//   }
+//   console.log(pattern)
+// }
+
+// 6
+
+
+// for(let i = 1; i <= 10; i++){
+//   console.log(`${9} * ${i} = ${i * i}`)
+// }
+
+
+// 7
+
+// for(let i = 0; i <= 100; i += 2){
+//   console.log(i)
+// }
+
+//8
+
+// for( let i = 1; i <= 100; i += 2){
+//   console.log(i)
+// }
+
+//9
+
+// function isPrime(num) {
+//   if (num <= 1) {
+//       return false;
+//   }
+//   for (let i = 2; i <= Math.sqrt(num); i++) {
+//       if (num % i === 0) {
+//           return false;
+//       }
+//   }
+//   return true;
+// }
+
+// for (let i = 0; i <= 100; i++) {
+//   if (isPrime(i)) {
+//       console.log(i);
+//   }
+// }
+
+// 10
+
+// let sum = 0;
+
+// for (let i = 0; i <= 100; i++) {
+//     sum += i;
+// }
+
+// console.log("The sum of numbers from 0 to 100 is:", sum);
+
+// 11
+
+// let sumEven = 0;
+// let sumOdd = 0;
+
+// for (let i = 0; i <= 100; i++) {
+//     if (i % 2 === 0) {
+//         sumEven += i;
+//     } else {
+//         sumOdd += i;
+//     }
+// }
+
+// console.log("The sum of even numbers from 0 to 100 is:", sumEven);
+// console.log("The sum of odd numbers from 0 to 100 is:", sumOdd);
+
+// 12
+
+// let sumEven = 0
+// let sumOdd = 0
+
+// for (let i = 0; i <=100; i++){
+//   if (i % 2 === 0){
+//     sumEven += i
+//   } else{
+//     sumOdd += i
+//   }
+// }
+
+// const sumsArray = [sumEven,sumOdd];
+// console.log('Array of sums:',sumsArray )
+
+//13
+
+// const mernStack = ["MongoDB", "Express", "React", "Node"];
+
+// const acronym = mernStack.reduce((acc, tech) => acc + tech[0], "");
+
+// console.log(acronym); 
+
+// 14
+
+// const webTechs = ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"];
+
+// for (const tech of webTechs) {
+//     console.log(tech);
+// }
+
+// 15
+
+// const fruits = ['banana', 'orange', 'mango', 'lemon'];
+// const reversedFruits = [];
+
+// for (let i = fruits.length - 1; i >= 0; i--) {
+//     reversedFruits.push(fruits[i]);
+// }
+
+// console.log(reversedFruits);
+
+// 16
+
+
+// const fullStack = [
+//   ['HTML', 'CSS', 'JS', 'React'],
+//   ['Node', 'Express', 'MongoDB']
+// ];
+
+// for (let i = 0; i < fullStack.length; i++) {
+//   for (let j = 0; j < fullStack[i].length; j++) {
+//     console.log(fullStack[i][j].toUpperCase());
+//   }
+// }
+
+// 17
+
+// const countries = ['USA', 'Canada', 'UK', 'Australia', 'Germany'];
+
+// const countriesCopy = [...countries];
+
+// console.log(countriesCopy); 
+
+// 18
+
+// const countries = ['USA', 'Canada', 'UK', 'Australia', 'Germany'];
+
+// const copiedCountries = [...countries];
+// const sortedCountries = copiedCountries.slice().sort();
+
+// console.log(countries); 
+// console.log(sortedCountries); 
+
+// 19
+
+// const webTechs = ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"];
+// const mernStack = ["MongoDB", "Express", "React", "Node"];
+
+// const sortedWebTechs = webTechs.slice().sort();
+// const sortedMernStack = mernStack.slice().sort();
+
+// console.log("Sorted webTechs:", sortedWebTechs);
+// console.log("Sorted mernStack:", sortedMernStack);
+
+// 20
+
