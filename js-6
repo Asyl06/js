@@ -1,0 +1,261 @@
+// 1  
+
+//   function сложение(a, b) {
+//     return a + b;
+//   }
+  
+//   let результат = сложение(5, 10);
+  
+// 2
+
+// function isEven(number) {
+//     return number % 2 === 0;
+//   }
+  
+//   let число = 10;
+//   if (isEven(число)) {
+//     console.log(число + " является четным числом.");
+//   } else {
+//     console.log(число + " не является четным числом.");
+//   }
+
+// 3
+
+// function factorial(n){
+//     if (n === 0 || n === 1){
+//         return 1;
+//     } else {
+//         return n * factorial(n - 1)
+//     }
+
+// }
+// let число = 5;
+// let результат = factorial(число);
+// console.log("Факториал числа " + число + " равен " + результат);
+
+// 4
+
+// function reverseString(str) {
+//     return str.split('').reverse().join('');
+//   }
+  
+//   let originalString = "Сәлем әлем";
+//   let reversedString = reverseString(originalString);
+  
+//   console.log("Исходная строка:", originalString);
+//   console.log("Перевернутая строка:", reversedString);
+ 
+// 5
+
+// function findMaxElement(arr) {
+//     if (arr.length === 0) {
+//       return "Массив пуст";
+//     }
+  
+//     let maxElement = arr[0];
+  
+//     for (let i = 1; i < arr.length; i++) {
+//       if (arr[i] > maxElement) {
+//         maxElement = arr[i];
+//       }
+//     }
+  
+//     return maxElement;
+//   }
+  
+//   let numbers = [3, 7, 2, 8, 1, 9, 4];
+//   let maxNumber = findMaxElement(numbers);
+  
+//   console.log("Массив:", numbers);
+//   console.log("Наибольший элемент:", maxNumber);
+  
+// 6
+
+// function isPalindrome(word) {
+//     const lowercasedWord = word.toLowerCase();
+//     return lowercasedWord === lowercasedWord.split('').reverse().join('');
+//   }
+//   let testWord = "level";
+//   let result = isPalindrome(testWord);
+  
+//   console.log(`Слово "${testWord}" является палиндромом: ${result}`);
+  
+//7 
+
+// function calculateAverage(numbers){
+//     if (numbers.lenght === 0){
+//         return "MAssiv tut"
+//     }
+
+//     const sum = numbers.reduce((accumlyator,curentValue)=>accumlyator + curentValue,0);
+//     const average = sum / numbers.lenght;
+//     return average;
+// }
+// let numberArray = [1,2,3,4,5]
+// let averageValue = calculateAverage (numberArray)
+
+// console.log("Massiv chisel",numberArray);
+// console.log("Srednye znachyne",averageValue)
+
+// 8
+//   function capitalizeWords(sentence) {
+//     return sentence
+//       .split(' ')
+//       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+//       .join(' ');
+//   }
+  
+//   const inputSentence = 'эта функция преобразует первую букву каждого слова';
+//   const capitalizedSentence = capitalizeWords(inputSentence);
+//   console.log(Исходное предложение: ${inputSentence});
+//   console.log(Предложение с заглавными буквами: ${capitalizedSentence});
+// 9
+//   function removeDuplicates(array) {
+//     return [...new Set(array)];
+//   }
+  
+//   const arrayWithDuplicates = [1, 2, 2, 3, 4, 4, 5];
+//   const arrayWithoutDuplicates = removeDuplicates(arrayWithDuplicates);
+//   console.log(Массив без повторяющихся элементов: ${arrayWithoutDuplicates});
+// 10
+//   function celsiusToFahrenheit(celsius) {
+//     return (celsius * 9 / 5) + 32;
+//   }
+  
+//   const temperatureCelsius = 25;
+//   const temperatureFahrenheit = celsiusToFahrenheit(temperatureCelsius);
+//   console.log(${temperatureCelsius} градусов Цельсия равны ${temperatureFahrenheit} градусам  Фаренгейта.);
+
+//11
+// function getRandomNumber(min, max) {
+//     return Math.floor(Math.random() * (max - min + 1)) + min;
+//   }
+  
+//   // Пример использования:
+//   let minNumber = 1;
+//   let maxNumber = 100;
+//   let randomNum = getRandomNumber(minNumber, maxNumber);
+//   console.log(randomNum);
+  
+// 12
+
+// function countOccurrences(arr) {
+//     let occurrences = {};
+  
+//     for (let i = 0; i < arr.length; i++) {
+//       let element = arr[i];
+  
+//       if (occurrences[element]) {
+//         occurrences[element]++;
+//       } else {
+//         occurrences[element] = 1;
+//       }
+//     }
+  
+//     return occurrences;
+//   }
+  
+//   let myArray = [1, 2, 3, 4, 1, 2, 2, 3, 4, 5];
+//   let result = countOccurrences(myArray);
+//   console.log(result);
+  
+// 13
+
+// function findSecondSmallest(arr) {
+//     if (arr.length < 2) {
+//       return null;
+//     }
+  
+//    let smallest = Infinity;
+//     let secondSmallest = Infinity;
+  
+//     for (let i = 0; i < arr.length; i++) {
+//       if (arr[i] < smallest) {
+//         secondSmallest = smallest;
+//         smallest = arr[i];
+//       } else if (arr[i] < secondSmallest && arr[i] !== smallest) {
+//         secondSmallest = arr[i];
+//       }
+//     }
+  
+//     if (secondSmallest === Infinity) {
+//       return null;
+//     }
+  
+//     return secondSmallest;
+//   }
+  
+//   let myArray = [4, 2, 8, 1, 5, 7];
+//   let result = findSecondSmallest(myArray);
+//   console.log(result);
+  
+// 14
+
+// function sortStringsAlphabetically(arr) {
+//     return arr.sort();
+//   }
+  
+//   let myArray = ["apple", "banana", "orange", "grape"];
+//   let sortedArray = sortStringsAlphabetically(myArray);
+//   console.log(sortedArray);
+  
+// 15
+
+// function calculateCircleArea(radius) {
+//     return Math.PI * Math.pow(radius, 2);
+//   }
+  
+//   let radius = 5;
+//   let area = calculateCircleArea(radius);
+//   console.log(area);
+  
+// 16
+
+// function containsOnlyNumbers(str) {
+//     return /^\d+$/.test(str);
+//   }
+  
+//   let myString = "12345";
+//   let result = containsOnlyNumbers(myString);
+//   console.log(result);
+  
+// 17
+
+// function binaryToDecimal(binaryString) {
+//     return parseInt(binaryString, 2);
+//   }
+  
+//   let binaryNumber = "1101";
+//   let decimalNumber = binaryToDecimal(binaryNumber);
+//   console.log(decimalNumber);
+  
+// 18
+
+// function fibonacci(n) {
+//     if (n <= 1) return n;
+//     return fibonacci(n - 1) + fibonacci(n - 2);
+//   }
+  
+//   let n = 6;
+//   let result = fibonacci(n);
+//   console.log(result);
+  
+// 19
+
+// function binaryToDecimal(binaryString) {
+//     return parseInt(binaryString, 2);
+//   }
+  
+//   let binaryNumber = "1101";
+//   let decimalNumber = binaryToDecimal(binaryNumber);
+//   console.log(decimalNumber);
+  
+// 20
+// function removeSpaces(str) {
+//     return str.replace(/\s/g, "");
+//   }
+  
+//   let myString = "Hello World";
+//   let stringWithoutSpaces = removeSpaces(myString);
+//   console.log(stringWithoutSpaces);
+  
