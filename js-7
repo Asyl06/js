@@ -1,0 +1,143 @@
+// 1
+// 55D
+
+// 2
+// d
+
+// 3
+// c
+
+// 4
+// b
+
+// 5
+// b
+
+// 6
+// c
+
+// 7
+// с
+
+// 8
+// c
+
+// 9
+//b
+
+// 10
+// c
+
+// 11
+// b
+
+// 12
+// d
+
+// 13
+// a
+
+// 14
+// d
+
+// 15
+//a
+
+// 1
+// function evaluateExpression(expression) {
+//     try {
+//         const result = eval(expression);
+        
+//         if (isNaN(result) || !isFinite(result)) {
+//             throw new Error("Invalid result");
+//         }
+
+//         return result;
+//     } catch (error) {
+//         return `Error: ${error.message}`;
+//     }
+// }
+
+// const expression = "3 * (4 + 2) / 7";
+// const result = evaluateExpression(expression);
+// console.log(`Натижесі '${expression}' is: ${result}`);
+
+// 2
+// console.log(Түсінбедім)
+
+//3
+// function generatePascalsTriangle(rows) {
+//     const triangle = [];
+//     for (let i = 0; i < rows; i++) {
+//         triangle[i] = new Array(i + 1);
+//         triangle[i][0] = 1; 
+
+//         for (let j = 1; j < i; j++) {
+//             triangle[i][j] = triangle[i - 1][j - 1] + triangle[i - 1][j];
+//         }
+
+//         triangle[i][i] = 1; 
+//     }
+//     return triangle;
+// }
+
+// function printPascalsTriangle(triangle) {
+//     for (let i = 0; i < triangle.length; i++) {
+//         const row = triangle[i].join(' ');
+//         console.log(' '.repeat((triangle.length - i - 1) * 3) + row);
+//     }
+// }
+
+// const rows = 10;
+// const pascalsTriangle = generatePascalsTriangle(rows);
+// printPascalsTriangle(pascalsTriangle);
+
+// 4
+// function longestIncreasingSubsequence(nums) {
+//     if (nums.length === 0) {
+//         return 0; 
+//     }
+
+//     const dp = new Array(nums.length).fill(1); 
+
+//     for (let i = 1; i < nums.length; i++) {
+//         for (let j = 0; j < i; j++) {
+//             if (nums[i] > nums[j] && dp[i] < dp[j] + 1) {
+//                 dp[i] = dp[j] + 1;
+//             }
+//         }
+//     }
+
+//     return Math.max(...dp);   
+// }
+
+// const nums = [10, 22, 9, 33, 21, 50, 41, 60, 80];
+// const result = longestIncreasingSubsequence(nums);
+// console.log(`Length of the Longest Increasing Subsequence: ${result}`);
+
+// 5
+// function fibonacci(n, memo = {}) {
+//     if (n in memo) {
+//         return memo[n];
+//     }
+
+//     if (n === 0) {
+//         return 0;
+//     } else if (n === 1) {
+//         return 1;
+//     }
+
+//     const result = fibonacci(n - 1, memo) + fibonacci(n - 2, memo);
+
+//     memo[n] = result;
+//     return result;
+// }
+
+// const n = 10;
+// const result = fibonacci(n);
+// console.log(`The ${n}th term of the Fibonacci sequence is: ${result}`);
+
+// 6
+
+
+
